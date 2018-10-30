@@ -11,10 +11,6 @@ namespace Program
         public static void Main(string[] args)
         {
             Faker faker = new Faker();
-            faker.Create<BasicDTO1>();
-            //bool result = faker.isDTO(typeof(int));
-
-            //int bom = faker.Create<int>();
             Console.WriteLine( faker.Create<BasicDTO1>());
 
         }
@@ -26,6 +22,7 @@ namespace Program
         public int bar{ get; set; }
         public int baz{ get; set; }
         public BasicDTO2 oleg{ get; set; }
+        //public int bamboo;
     }
 
     class BasicDTO2

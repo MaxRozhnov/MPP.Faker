@@ -12,7 +12,9 @@ namespace Faker_Lib
         private readonly List<Type> _simpleLists;
         private readonly Stack<Type> _typesMet;
         private readonly Dictionary<Type, IGenerator> _generators;
-        
+        private  Dictionary<Type, IGenerator> _extensionGenerators;
+        public Dictionary<Type, IGenerator> ExtensionGenerators { get; set; }
+
         public Faker()
         {
             _simpleTypes = new List<Type> 
@@ -63,9 +65,7 @@ namespace Faker_Lib
         }
 
         private bool IsDto(Type objectType)
-        {
-            //TODO: Basic isDTO check before going to the fields of Type itself.
-            
+        {            
             foreach (var type in _typesMet)
             {
                 if (objectType == type)
@@ -165,48 +165,28 @@ namespace Faker_Lib
             if (createdSuccessfully)
             {
                 //TODO Fill the properties of DTO or maybe not??? Better do it outside of this method
-                FillFields(ref result);
+                FillProperties(ref result);
             }
 
             return result;
         }
 
-        private void FillFields<T>(ref T result)
+        private void FillProperties<T>(ref T result)
         {
-            var properties = result.GetType().GetProperties();
-            var publicFields = result.GetType().GetFields(BindingFlags.Public);
-            //var properties = result.GetType().GetProperties().Where(property => property?.SetMethod?.IsPublic != null);
-
-            
-
+            var properties = result.GetType().GetProperties().Where(property => property?.SetMethod?.IsPublic != null);
             foreach (var property in properties)
             {
-                if (property?.SetMethod != null)
-                {
-                    if (property.SetMethod.IsPublic)
-                    {
-                        SetProperty(ref result, property);
-                        //TODO: Fill property
-                    }
-                }
+                SetProperty(ref result, property);
             }
-            
         }
-
+       
         private void SetProperty<T>(ref T result, PropertyInfo property)
         {
-            object[] setMethodParameters = new object[1];
-            Type propertType = property.PropertyType;
-            if (_generators.ContainsKey(propertType))
-            {
-                setMethodParameters = new object[] { _generators[propertType].Generate() };
-            }
-            else
-            {
-                setMethodParameters = new object[]{ GenerateDto(propertType)};
-            }
+            var propertyType = property.PropertyType;
+            var setMethodParameters = _generators.ContainsKey(propertyType) ? new object[] { _generators[propertyType].Generate() } : new object[]{ GenerateDto(propertyType)};
 
             property.SetMethod.Invoke(result, setMethodParameters);
         }
+
     }
 }
