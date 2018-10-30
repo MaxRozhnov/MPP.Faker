@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Faker Lib\\Faker Lib.csproj",
+    "projectName": "Faker Lib",
+    "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Faker Lib\\Faker Lib.csproj",
+    "outputPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Faker Lib\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj": {
+            "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

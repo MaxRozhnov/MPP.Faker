@@ -1,0 +1,12 @@
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\bin\Debug\netstandard2.0\Faker Lib.deps.json
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\bin\Debug\netstandard2.0\Faker Lib.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\bin\Debug\netstandard2.0\Faker Lib.pdb
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.AssemblyInfoInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.AssemblyInfo.cs
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.pdb
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\bin\Debug\netstandard2.0\Generators.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\bin\Debug\netstandard2.0\Generators.pdb
+C:\Users\Max\RiderProjects\Lab Task 2\Faker Lib\obj\Debug\netstandard2.0\Faker Lib.csproj.CopyComplete

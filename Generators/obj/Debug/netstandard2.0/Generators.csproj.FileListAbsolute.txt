@@ -1,0 +1,9 @@
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\bin\Debug\netstandard2.0\Generators.deps.json
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\bin\Debug\netstandard2.0\Generators.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\bin\Debug\netstandard2.0\Generators.pdb
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.AssemblyInfoInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.AssemblyInfo.cs
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Generators\obj\Debug\netstandard2.0\Generators.pdb
