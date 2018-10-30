@@ -33,11 +33,23 @@
         </e>
         <e p="StringGenerator.cs" t="Include" />
       </e>
+      <e p="Interfaces" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces.csproj" t="IncludeRecursive" />
+        <e p="IPlugin.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Interfaces.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Lab Task 2.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Plugins" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="IPlugin.cs" t="Include" />
+        <e p="CurrentDatePlugin.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -45,12 +57,12 @@
             </e>
           </e>
         </e>
-        <e p="Plugin.cs" t="Include" />
         <e p="Plugins.csproj" t="IncludeRecursive" />
       </e>
       <e p="Program" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="PluginLoader.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Program.csproj" t="IncludeRecursive" />
         <e p="Properties" t="Include">

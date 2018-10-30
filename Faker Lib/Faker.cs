@@ -12,8 +12,7 @@ namespace Faker_Lib
         private readonly List<Type> _simpleLists;
         private readonly Stack<Type> _typesMet;
         private readonly Dictionary<Type, IGenerator> _generators;
-        private  Dictionary<Type, IGenerator> _extensionGenerators;
-        public Dictionary<Type, IGenerator> ExtensionGenerators { get; set; }
+        private readonly List<Dictionary<Type, IGenerator>> _extensionalDictionaries;
 
         public Faker()
         {
@@ -48,6 +47,7 @@ namespace Faker_Lib
             };
 
             _typesMet = new Stack<Type>();
+            _extensionalDictionaries = new List<Dictionary<Type, IGenerator>>();
         }
 
         public T Create<T>()
@@ -86,11 +86,14 @@ namespace Faker_Lib
             {
                 if (!IsSimpleTypeOrList(field.FieldType))
                 {
-                    if (!IsDto(field.FieldType))
+                    if (!IsExtensionalItem(field.FieldType))
                     {
-                        return false;
+                        if (!IsDto(field.FieldType))
+                        {
+                            return false;
+                        }
                     }
-                    
+
                 }
             }
 
@@ -118,6 +121,22 @@ namespace Faker_Lib
             return false;
         }
 
+        private bool IsExtensionalItem(Type type)
+        {
+            foreach (var extensionalDictionary in _extensionalDictionaries)
+            {
+                foreach (var keyValuePair in extensionalDictionary)
+                {
+                    if (keyValuePair.Key == type)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
         private object CreateUsingConstructor(ConstructorInfo constructor)
         {
             var parametersInfo = constructor.GetParameters();
@@ -133,6 +152,14 @@ namespace Faker_Lib
         {
             try
             {
+                foreach (var extensionalDictionary in _extensionalDictionaries)
+                {
+                    if (extensionalDictionary.ContainsKey(objectType))
+                    {
+                        return extensionalDictionary[objectType].Generate();
+                    }
+                }
+                
                 return _generators.ContainsKey(objectType) ? _generators[objectType].Generate() : GenerateDto(objectType);
             }
             catch
@@ -183,9 +210,31 @@ namespace Faker_Lib
         private void SetProperty<T>(ref T result, PropertyInfo property)
         {
             var propertyType = property.PropertyType;
-            var setMethodParameters = _generators.ContainsKey(propertyType) ? new object[] { _generators[propertyType].Generate() } : new object[]{ GenerateDto(propertyType)};
+            object[] setMethodParameters = null;
+            foreach (var extensionalDictionary in _extensionalDictionaries)
+            {
+                if (extensionalDictionary.ContainsKey(propertyType))
+                {
+                    setMethodParameters = new object[]{extensionalDictionary[propertyType].Generate()};
+                } 
+            }
+
+            if (setMethodParameters == null)
+            {
+                setMethodParameters = _generators.ContainsKey(propertyType) ? new object[] { _generators[propertyType].Generate() } : new object[]{ GenerateDto(propertyType)};
+            }
 
             property.SetMethod.Invoke(result, setMethodParameters);
+        }
+
+        public void AddExtensionalDictionary(Dictionary<Type, IGenerator> extensionalDictionary)
+        {
+            _extensionalDictionaries.Add(extensionalDictionary);
+        }
+
+        public void RemoveExtensionalDictionary(Dictionary<Type, IGenerator> extensionalDictionary)
+        {
+            _extensionalDictionaries.Remove(extensionalDictionary);
         }
 
     }

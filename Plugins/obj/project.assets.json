@@ -35,6 +35,19 @@
         "runtime": {
           "bin/placeholder/Generators.dll": {}
         }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Generators": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
       }
     }
   },
@@ -183,11 +196,16 @@
       "type": "project",
       "path": "../Generators/Generators.csproj",
       "msbuildProject": "../Generators/Generators.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Generators >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -221,8 +239,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj": {
-              "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj"
+            "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Interfaces\\Interfaces.csproj"
             }
           }
         }
