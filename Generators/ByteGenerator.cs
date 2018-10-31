@@ -6,8 +6,8 @@ namespace Generators
     {
         public object Generate()
         {
-            const byte returnValue = 42;
-            return returnValue;
+            var intGenerator = new IntGenerator();
+            return (byte) intGenerator.Generate();
         }
     }
 }

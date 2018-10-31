@@ -47,7 +47,9 @@ namespace Faker_Lib
                 {typeof(string), new StringGenerator()},
                 {typeof(float), new FloatGenerator()},
                 {typeof(double), new DoubleGenerator()},
-                {typeof(byte), new ByteGenerator()}
+                {typeof(byte), new ByteGenerator()},
+                {typeof(char), new CharGenerator()},
+                {typeof(List<int>), new IntListGenerator()},
             };
 
             _typesMet = new Stack<Type>();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Faker_Lib;
 
 
@@ -28,8 +29,11 @@ namespace Program
         public int foo { get; set; }
         public int bar{ get; set; }
         public int baz{ get; set; }
+        public List<int> fooBar { get; set; }
         public DateTime today { get; set; }
         public BasicDTO2 oleg{ get; set; }
+        public char umm { get; set; }
+        public string name { get; set; }
         
         //public int bamboo;
     }

@@ -5,15 +5,15 @@ using Generators;
 
 namespace Plugins
 {
-    public class CurrentDatePlugin : IPlugin
+    public class DatePlugin : IPlugin
     {
         private readonly Dictionary<Type, IGenerator> _extensionGenerators;
 
-        public CurrentDatePlugin()
+        public DatePlugin()
         {
             _extensionGenerators = new Dictionary<Type, IGenerator>
             {
-                {typeof(DateTime), new CurrentDateTimeGenerator()}
+                {typeof(DateTime), new DateTimeGenerator()}
             };
         }
         

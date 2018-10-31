@@ -6,8 +6,8 @@ namespace Generators
     {
         public object Generate()
         {
-            const long returnValue = 1234567890;
-            return returnValue;
+            var intGenerator = new IntGenerator();
+            return (long)intGenerator.Generate();
         }
     }
 }
