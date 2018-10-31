@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Generators;
 using Interfaces;
+using Generators;
 
 namespace Plugins
 {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Generators;
+using Interfaces;
 
 namespace Faker_Lib
 {
@@ -24,7 +25,9 @@ namespace Faker_Lib
                 typeof(double),                                            
                 typeof(string),               
                 typeof(bool),
-                typeof(char)
+                typeof(char),
+                typeof(byte)
+               
             };
             
             _simpleLists = new List<Type>
@@ -43,7 +46,8 @@ namespace Faker_Lib
                 {typeof(int), new IntGenerator()},
                 {typeof(string), new StringGenerator()},
                 {typeof(float), new FloatGenerator()},
-                {typeof(double), new DoubleGenerator()}
+                {typeof(double), new DoubleGenerator()},
+                {typeof(byte), new ByteGenerator()}
             };
 
             _typesMet = new Stack<Type>();
@@ -93,7 +97,6 @@ namespace Faker_Lib
                             return false;
                         }
                     }
-
                 }
             }
 

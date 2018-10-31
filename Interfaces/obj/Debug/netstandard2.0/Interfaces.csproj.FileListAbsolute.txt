@@ -1,12 +1,9 @@
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
-C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\bin\Debug\netstandard2.0\Generators.dll
-C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\bin\Debug\netstandard2.0\Generators.pdb
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
-C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CopyComplete
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
 C:\Users\Max\RiderProjects\Lab Task 2\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb

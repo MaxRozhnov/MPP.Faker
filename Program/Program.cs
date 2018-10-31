@@ -22,6 +22,7 @@ namespace Program
         public int bar{ get; set; }
         public int baz{ get; set; }
         public BasicDTO2 oleg{ get; set; }
+        
         //public int bamboo;
     }
 

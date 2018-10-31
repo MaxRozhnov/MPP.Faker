@@ -23,8 +23,16 @@
         }
       },
       "Generators/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
         "runtime": {
           "Generators.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "runtime": {
+          "Interfaces.dll": {}
         }
       }
     }
@@ -50,6 +58,11 @@
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "Generators/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

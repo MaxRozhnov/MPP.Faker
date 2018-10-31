@@ -29,11 +29,24 @@
       "Generators/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Generators.dll": {}
         },
         "runtime": {
           "bin/placeholder/Generators.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
         }
       }
     }
@@ -183,6 +196,11 @@
       "type": "project",
       "path": "../Generators/Generators.csproj",
       "msbuildProject": "../Generators/Generators.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {

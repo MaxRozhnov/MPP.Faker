@@ -105,3 +105,5 @@ C:\Users\Max\RiderProjects\Lab Task 2\Program\obj\Debug\Program.exe
 C:\Users\Max\RiderProjects\Lab Task 2\Program\obj\Debug\Program.pdb
 C:\Users\Max\RiderProjects\Lab Task 2\Program\bin\Debug\Generators.dll
 C:\Users\Max\RiderProjects\Lab Task 2\Program\bin\Debug\Generators.pdb
+C:\Users\Max\RiderProjects\Lab Task 2\Program\bin\Debug\Interfaces.dll
+C:\Users\Max\RiderProjects\Lab Task 2\Program\bin\Debug\Interfaces.pdb

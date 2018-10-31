@@ -2,50 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bd7034-4c00-4d64-bf6d-b87e08bde845" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interfaces/IPlugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/Interfaces.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Interfaces.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Interfaces.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/Interfaces.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program/PluginLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generators/ByteGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generators/LongGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interfaces/IGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/Faker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/Faker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Faker Lib.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Faker Lib.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/DateTimeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/DateTimeGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/DoubleGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/DoubleGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/FloatGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/FloatGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/Generators.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/Generators.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/IGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/IntGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/IntGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/StringGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/StringGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab Task 2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Task 2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/IPlugin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Plugin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/obj/Generators.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Generators.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generators/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/IPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/IPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Interfaces.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Interfaces.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/bin/Debug/netstandard2.0/Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/Debug/netstandard2.0/Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/Interfaces.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/Interfaces.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Plugins.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Plugins.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/obj/Plugins.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Plugins.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/Program.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Program.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Generators.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Generators.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Program.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Program.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Program.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Program.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.pdb" afterDir="false" />
@@ -60,33 +83,33 @@
     <session id="-462659905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="30" />
+          <entry key="cs" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="30" />
+          <entry key="C#" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5938" />
+          <entry key="cs" value="6149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5938" />
+          <entry key="C#" value="6149" />
         </counts>
       </usages-collector>
     </session>
@@ -96,15 +119,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
-                <marker date="1540922738274" expanded="false" signature="6:72" ph="..." />
-                <marker date="1540922738274" expanded="true" signature="92:586" ph="{...}" />
-                <marker date="1540922738274" expanded="true" signature="121:299" ph="{...}" />
-                <marker date="1540922738274" expanded="true" signature="174:293" ph="{...}" />
-                <marker date="1540922738274" expanded="true" signature="320:513" ph="{...}" />
-                <marker date="1540922738274" expanded="true" signature="534:584" ph="{...}" />
+                <marker date="1540990046598" expanded="false" signature="6:72" ph="..." />
+                <marker date="1540990046598" expanded="true" signature="92:595" ph="{...}" />
+                <marker date="1540990046598" expanded="true" signature="121:299" ph="{...}" />
+                <marker date="1540990046598" expanded="true" signature="174:293" ph="{...}" />
+                <marker date="1540990046598" expanded="true" signature="320:522" ph="{...}" />
+                <marker date="1540990046598" expanded="true" signature="543:593" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interfaces/IGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <marker date="1540990374935" expanded="true" signature="34:109" ph="{...}" />
+                <marker date="1540990374935" expanded="true" signature="68:107" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generators/IntGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <marker date="1540990374917" expanded="true" signature="6:55" ph="..." />
+                <marker date="1540990374917" expanded="true" signature="77:364" ph="{...}" />
+                <marker date="1540990374917" expanded="true" signature="122:362" ph="{...}" />
+                <marker date="1540990374917" expanded="true" signature="161:356" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generators/StringGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <marker date="1540990375009" expanded="true" signature="6:31" ph="..." />
+                <marker date="1540990375009" expanded="true" signature="53:692" ph="{...}" />
+                <marker date="1540990375009" expanded="true" signature="101:690" ph="{...}" />
+                <marker date="1540990375009" expanded="true" signature="140:684" ph="{...}" />
+                <marker date="1540990375009" expanded="true" signature="475:646" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <marker date="1540990374896" expanded="true" signature="6:83" ph="..." />
+                <marker date="1540990374896" expanded="true" signature="102:600" ph="{...}" />
+                <marker date="1540990374896" expanded="true" signature="149:598" ph="{...}" />
+                <marker date="1540990374896" expanded="true" signature="267:451" ph="{...}" />
+                <marker date="1540990374896" expanded="true" signature="358:440" ph="{...}" />
+                <marker date="1540990374896" expanded="true" signature="531:592" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,68 +197,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Faker Lib/Faker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
               <folding>
-                <marker date="1540933928453" expanded="false" signature="6:109" ph="..." />
-                <marker date="1540933928453" expanded="true" signature="130:7825" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="155:7823" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="486:1714" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="552:927" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="996:1270" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="1344:1578" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="1744:2055" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="1788:1934" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="1951:2044" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="2100:3147" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2166:2304" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2220:2290" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2707:3082" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2779:3068" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2858:3049" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="2933:3027" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="3199:3626" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3262:3399" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3316:3385" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3453:3590" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3507:3576" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="3677:4063" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3763:4026" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3845:4012" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="3913:3994" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="4139:4517" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="4341:4450" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="4567:5205" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="4593:5069" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="4687:4915" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="4776:4897" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="5100:5195" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="5258:6285" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="5600:6035" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="5634:5872" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="5911:6021" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="6073:6247" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="6339:6607" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="6518:6597" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="6688:7444" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="6877:7115" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="6960:7100" ph="{...}" />
-                <marker date="1540933928453" expanded="true" signature="7161:7365" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="7542:7627" ph="{...}" />
-                <marker date="1540933928453" expanded="false" signature="7728:7816" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6:127" ph="..." />
+                <marker date="1540990783050" expanded="true" signature="148:7941" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="173:7939" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="504:1831" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="570:991" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="1060:1334" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="1408:1695" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="1861:2172" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="1905:2051" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2068:2161" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2217:3263" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2283:2421" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2337:2407" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2824:3198" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2896:3184" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="2975:3166" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3050:3144" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3315:3742" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3378:3515" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3432:3501" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3569:3706" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3623:3692" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3793:4179" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3879:4142" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="3961:4128" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4029:4110" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4255:4633" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4457:4566" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4683:5321" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4709:5185" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4803:5031" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="4892:5013" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="5216:5311" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="5374:6401" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="5716:6151" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="5750:5988" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6027:6137" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6189:6363" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6455:6723" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6634:6713" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6804:7560" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="6993:7231" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="7076:7216" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="7277:7481" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="7658:7743" ph="{...}" />
+                <marker date="1540990783050" expanded="true" signature="7844:7932" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generators/LongGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <folding>
+                <marker date="1540990783030" expanded="true" signature="39:233" ph="{...}" />
+                <marker date="1540990783030" expanded="true" signature="85:231" ph="{...}" />
+                <marker date="1540990783030" expanded="true" signature="124:225" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Program/PluginLoader.cs">
+        <entry file="file://$PROJECT_DIR$/Generators/ByteGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <marker date="1540934129637" expanded="true" signature="17:72" ph="{...}" />
-                <marker date="1540934129637" expanded="true" signature="49:70" ph="{...}" />
+                <marker date="1540990783012" expanded="true" signature="39:225" ph="{...}" />
+                <marker date="1540990783012" expanded="true" signature="85:223" ph="{...}" />
+                <marker date="1540990783012" expanded="true" signature="124:217" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -183,12 +282,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generators/DateTimeGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <marker date="1540932378158" expanded="true" signature="35:230" ph="{...}" />
-                <marker date="1540932378158" expanded="true" signature="93:228" ph="{...}" />
-                <marker date="1540932378158" expanded="true" signature="132:222" ph="{...}" />
+                <marker date="1540990374970" expanded="true" signature="6:31" ph="..." />
+                <marker date="1540990374970" expanded="true" signature="53:248" ph="{...}" />
+                <marker date="1540990374970" expanded="true" signature="111:246" ph="{...}" />
+                <marker date="1540990374970" expanded="true" signature="150:240" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generators/FloatGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <marker date="1540990374989" expanded="true" signature="6:31" ph="..." />
+                <marker date="1540990374989" expanded="true" signature="53:383" ph="{...}" />
+                <marker date="1540990374989" expanded="true" signature="100:381" ph="{...}" />
+                <marker date="1540990374989" expanded="true" signature="139:375" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -205,14 +320,16 @@
     <setting file="file://$PROJECT_DIR$/Generators/StringGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/234F0A13-016A-4580-8C1B-83FC70207998/9f/31325271/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generators/DateTimeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interfaces/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/234F0A13-016A-4580-8C1B-83FC70207998/67/c919dd9f/RuntimeConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program/PluginLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generators/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D42F0E0B-BFC7-4D33-B4B4-6DEEF693FD25/99/c90ac5e5/Stack`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Faker Lib/Faker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Faker/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generators/LongGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generators/ByteGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generators/IntGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generators/FloatGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -223,23 +340,26 @@
         <option value="$PROJECT_DIR$/Faker Lib/Class1.cs" />
         <option value="$PROJECT_DIR$/Generators/Class1.cs" />
         <option value="$PROJECT_DIR$/Generators/DtoGenerator.cs" />
-        <option value="$PROJECT_DIR$/Generators/DoubleGenerator.cs" />
         <option value="$PROJECT_DIR$/Generators/IGenerator.cs" />
-        <option value="$PROJECT_DIR$/Generators/FloatGenerator.cs" />
-        <option value="$PROJECT_DIR$/Generators/StringGenerator.cs" />
-        <option value="$PROJECT_DIR$/Program/Program.cs" />
-        <option value="$PROJECT_DIR$/Generators/IntGenerator.cs" />
         <option value="$PROJECT_DIR$/Plugins/IPlugin.cs" />
         <option value="$PROJECT_DIR$/PluginInterface/Class1.cs" />
         <option value="$PROJECT_DIR$/PluginInterface/IPlugin.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Class1.cs" />
         <option value="$PROJECT_DIR$/Plugins/Plugin.cs" />
         <option value="$PROJECT_DIR$/Plugins/Class1.cs" />
-        <option value="$PROJECT_DIR$/Generators/DateTimeGenerator.cs" />
-        <option value="$PROJECT_DIR$/Interfaces/IPlugin.cs" />
-        <option value="$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" />
-        <option value="$PROJECT_DIR$/Faker Lib/Faker.cs" />
         <option value="$PROJECT_DIR$/Program/PluginLoader.cs" />
+        <option value="$PROJECT_DIR$/Program/Program.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/IPlugin.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/IGenerator.cs" />
+        <option value="$PROJECT_DIR$/Generators/DoubleGenerator.cs" />
+        <option value="$PROJECT_DIR$/Generators/FloatGenerator.cs" />
+        <option value="$PROJECT_DIR$/Generators/IntGenerator.cs" />
+        <option value="$PROJECT_DIR$/Generators/StringGenerator.cs" />
+        <option value="$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs" />
+        <option value="$PROJECT_DIR$/Generators/DateTimeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Faker Lib/Faker.cs" />
+        <option value="$PROJECT_DIR$/Generators/LongGenerator.cs" />
+        <option value="$PROJECT_DIR$/Generators/ByteGenerator.cs" />
       </list>
     </option>
   </component>
@@ -261,7 +381,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -277,24 +396,31 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Lab Task 2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Generators" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab Task 2" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Lab Task 2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Program" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Plugins" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,12 +470,13 @@
       <workItem from="1540819806746" duration="945000" />
       <workItem from="1540908059159" duration="1799000" />
       <workItem from="1540912086989" duration="14531000" />
-      <workItem from="1540931506850" duration="2611000" />
+      <workItem from="1540931506850" duration="4227000" />
+      <workItem from="1540990149598" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39504000" />
+    <option name="totallyTimeSpent" value="41749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,13 +491,13 @@
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21613486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21854305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.221519" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32805908" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.32805908" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -381,7 +508,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.13185655" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.13185655" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,27 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generators/IGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generators/DoubleGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generators/FloatGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/234F0A13-016A-4580-8C1B-83FC70207998/9f/31325271/Dictionary`2.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -474,143 +581,215 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PluginInterface/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Plugins/IPlugin.cs" />
+    <entry file="file://$PROJECT_DIR$/PluginInterface/IPlugin.cs" />
+    <entry file="file://$PROJECT_DIR$/Plugins/Plugin.cs" />
+    <entry file="file://$PROJECT_DIR$/Plugins/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Program/PluginLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1540934129637" expanded="true" signature="49:70" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/IPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1540990046615" expanded="true" signature="6:47" ph="..." />
+            <marker date="1540990046615" expanded="true" signature="100:210" ph="{...}" />
+            <marker date="1540990046615" expanded="true" signature="131:208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generators/DoubleGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <marker date="1540990374854" expanded="true" signature="6:31" ph="..." />
+            <marker date="1540990374854" expanded="true" signature="53:363" ph="{...}" />
+            <marker date="1540990374854" expanded="true" signature="101:361" ph="{...}" />
+            <marker date="1540990374854" expanded="true" signature="141:355" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generators/FloatGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1540990374989" expanded="true" signature="6:31" ph="..." />
+            <marker date="1540990374989" expanded="true" signature="53:383" ph="{...}" />
+            <marker date="1540990374989" expanded="true" signature="100:381" ph="{...}" />
+            <marker date="1540990374989" expanded="true" signature="139:375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generators/IntGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1540990374917" expanded="true" signature="6:55" ph="..." />
+            <marker date="1540990374917" expanded="true" signature="77:364" ph="{...}" />
+            <marker date="1540990374917" expanded="true" signature="122:362" ph="{...}" />
+            <marker date="1540990374917" expanded="true" signature="161:356" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generators/StringGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluginInterface/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Plugins/IPlugin.cs" />
-    <entry file="file://$PROJECT_DIR$/PluginInterface/IPlugin.cs" />
-    <entry file="file://$PROJECT_DIR$/Plugins/Plugin.cs" />
-    <entry file="file://$PROJECT_DIR$/Plugins/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/IPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
-            <marker date="1540933246430" expanded="true" signature="6:65" ph="..." />
-            <marker date="1540933246430" expanded="true" signature="118:228" ph="{...}" />
-            <marker date="1540933246430" expanded="true" signature="149:226" ph="{...}" />
+            <marker date="1540990375009" expanded="true" signature="6:31" ph="..." />
+            <marker date="1540990375009" expanded="true" signature="53:692" ph="{...}" />
+            <marker date="1540990375009" expanded="true" signature="101:690" ph="{...}" />
+            <marker date="1540990375009" expanded="true" signature="140:684" ph="{...}" />
+            <marker date="1540990375009" expanded="true" signature="475:646" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Plugins/CurrentDatePlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
-            <marker date="1540933246379" expanded="true" signature="6:83" ph="..." />
-            <marker date="1540933246379" expanded="true" signature="102:600" ph="{...}" />
-            <marker date="1540933246379" expanded="true" signature="149:598" ph="{...}" />
-            <marker date="1540933246379" expanded="true" signature="267:451" ph="{...}" />
-            <marker date="1540933246379" expanded="true" signature="358:440" ph="{...}" />
-            <marker date="1540933246379" expanded="true" signature="531:592" ph="{...}" />
+            <marker date="1540990374896" expanded="true" signature="6:83" ph="..." />
+            <marker date="1540990374896" expanded="true" signature="102:600" ph="{...}" />
+            <marker date="1540990374896" expanded="true" signature="149:598" ph="{...}" />
+            <marker date="1540990374896" expanded="true" signature="267:451" ph="{...}" />
+            <marker date="1540990374896" expanded="true" signature="358:440" ph="{...}" />
+            <marker date="1540990374896" expanded="true" signature="531:592" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generators/DateTimeGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1540932378158" expanded="true" signature="35:230" ph="{...}" />
-            <marker date="1540932378158" expanded="true" signature="93:228" ph="{...}" />
-            <marker date="1540932378158" expanded="true" signature="132:222" ph="{...}" />
+            <marker date="1540990374970" expanded="true" signature="6:31" ph="..." />
+            <marker date="1540990374970" expanded="true" signature="53:248" ph="{...}" />
+            <marker date="1540990374970" expanded="true" signature="111:246" ph="{...}" />
+            <marker date="1540990374970" expanded="true" signature="150:240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/IGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1540990374935" expanded="true" signature="34:109" ph="{...}" />
+            <marker date="1540990374935" expanded="true" signature="68:107" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Program/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <marker date="1540922738274" expanded="false" signature="6:72" ph="..." />
-            <marker date="1540922738274" expanded="true" signature="92:586" ph="{...}" />
-            <marker date="1540922738274" expanded="true" signature="121:299" ph="{...}" />
-            <marker date="1540922738274" expanded="true" signature="174:293" ph="{...}" />
-            <marker date="1540922738274" expanded="true" signature="320:513" ph="{...}" />
-            <marker date="1540922738274" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1540990046598" expanded="false" signature="6:72" ph="..." />
+            <marker date="1540990046598" expanded="true" signature="92:595" ph="{...}" />
+            <marker date="1540990046598" expanded="true" signature="121:299" ph="{...}" />
+            <marker date="1540990046598" expanded="true" signature="174:293" ph="{...}" />
+            <marker date="1540990046598" expanded="true" signature="320:522" ph="{...}" />
+            <marker date="1540990046598" expanded="true" signature="543:593" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Faker Lib/Faker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
-            <marker date="1540933928453" expanded="false" signature="6:109" ph="..." />
-            <marker date="1540933928453" expanded="true" signature="130:7825" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="155:7823" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="486:1714" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="552:927" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="996:1270" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="1344:1578" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="1744:2055" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="1788:1934" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="1951:2044" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="2100:3147" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2166:2304" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2220:2290" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2707:3082" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2779:3068" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2858:3049" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="2933:3027" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="3199:3626" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3262:3399" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3316:3385" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3453:3590" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3507:3576" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="3677:4063" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3763:4026" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3845:4012" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="3913:3994" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="4139:4517" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="4341:4450" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="4567:5205" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="4593:5069" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="4687:4915" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="4776:4897" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="5100:5195" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="5258:6285" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="5600:6035" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="5634:5872" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="5911:6021" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="6073:6247" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="6339:6607" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="6518:6597" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="6688:7444" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="6877:7115" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="6960:7100" ph="{...}" />
-            <marker date="1540933928453" expanded="true" signature="7161:7365" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="7542:7627" ph="{...}" />
-            <marker date="1540933928453" expanded="false" signature="7728:7816" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6:127" ph="..." />
+            <marker date="1540990783050" expanded="true" signature="148:7941" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="173:7939" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="504:1831" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="570:991" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="1060:1334" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="1408:1695" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="1861:2172" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="1905:2051" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2068:2161" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2217:3263" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2283:2421" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2337:2407" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2824:3198" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2896:3184" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="2975:3166" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3050:3144" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3315:3742" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3378:3515" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3432:3501" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3569:3706" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3623:3692" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3793:4179" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3879:4142" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="3961:4128" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4029:4110" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4255:4633" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4457:4566" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4683:5321" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4709:5185" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4803:5031" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="4892:5013" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="5216:5311" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="5374:6401" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="5716:6151" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="5750:5988" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6027:6137" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6189:6363" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6455:6723" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6634:6713" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6804:7560" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="6993:7231" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="7076:7216" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="7277:7481" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="7658:7743" ph="{...}" />
+            <marker date="1540990783050" expanded="true" signature="7844:7932" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/PluginLoader.cs">
+    <entry file="file://$PROJECT_DIR$/Generators/LongGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
-            <marker date="1540934129637" expanded="true" signature="17:72" ph="{...}" />
-            <marker date="1540934129637" expanded="true" signature="49:70" ph="{...}" />
+            <marker date="1540990783030" expanded="true" signature="39:233" ph="{...}" />
+            <marker date="1540990783030" expanded="true" signature="85:231" ph="{...}" />
+            <marker date="1540990783030" expanded="true" signature="124:225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generators/ByteGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1540990783012" expanded="true" signature="39:225" ph="{...}" />
+            <marker date="1540990783012" expanded="true" signature="85:223" ph="{...}" />
+            <marker date="1540990783012" expanded="true" signature="124:217" ph="{...}" />
           </folding>
         </state>
       </provider>

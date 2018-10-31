@@ -15,6 +15,9 @@
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
+          "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj": {
+            "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Generators\\Generators.csproj"
+          },
           "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Interfaces\\Interfaces.csproj": {
             "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Interfaces\\Interfaces.csproj"
           }
