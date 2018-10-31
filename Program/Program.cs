@@ -8,11 +8,16 @@ namespace Program
     {
         public static void Main(string[] args)
         {
-            //var pluginLoader = new PluginLoader();
-            var plugin =
+            
+            var faker = new Faker();
+            var plugins =
                 PluginLoader.Load("C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Plugins\\bin\\Debug\\netstandard2.0\\Plugins.dll");
-            Faker faker = new Faker();
-            faker.AddExtensionalDictionary(plugin.GetExtensionalGenerators());
+            
+            foreach (var plugin in plugins)
+            {
+                faker.AddExtensionalDictionary(plugin.GetExtensionalGenerators());
+            }
+            
             Console.WriteLine( faker.Create<BasicDTO1>());
 
         }
