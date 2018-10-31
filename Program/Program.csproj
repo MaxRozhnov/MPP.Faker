@@ -51,6 +51,10 @@
       <Project>{6f6b1768-64c3-4c1e-b3a6-eee9d7c0d58b}</Project>
       <Name>Generators</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{74555512-b69c-46fc-9da7-9d1f33a936c8}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

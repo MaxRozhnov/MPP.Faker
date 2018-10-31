@@ -194,7 +194,6 @@ namespace Faker_Lib
 
             if (createdSuccessfully)
             {
-                //TODO Fill the properties of DTO or maybe not??? Better do it outside of this method
                 FillProperties(ref result);
             }
 

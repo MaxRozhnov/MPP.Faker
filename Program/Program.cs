@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Threading;
 using Faker_Lib;
-using Generators;
 
 
 namespace Program
@@ -10,7 +8,11 @@ namespace Program
     {
         public static void Main(string[] args)
         {
+            //var pluginLoader = new PluginLoader();
+            var plugin =
+                PluginLoader.Load("C:\\Users\\Max\\RiderProjects\\Lab Task 2\\Plugins\\bin\\Debug\\netstandard2.0\\Plugins.dll");
             Faker faker = new Faker();
+            faker.AddExtensionalDictionary(plugin.GetExtensionalGenerators());
             Console.WriteLine( faker.Create<BasicDTO1>());
 
         }
@@ -21,6 +23,7 @@ namespace Program
         public int foo { get; set; }
         public int bar{ get; set; }
         public int baz{ get; set; }
+        public DateTime today { get; set; }
         public BasicDTO2 oleg{ get; set; }
         
         //public int bamboo;
