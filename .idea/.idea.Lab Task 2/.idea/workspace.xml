@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bd7034-4c00-4d64-bf6d-b87e08bde845" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generators/DateTimeListGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/DateListPlugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Faker Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/bin/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Faker Lib/obj/Debug/netstandard2.0/Faker Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/bin/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/obj/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Generators.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Plugins.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Plugins.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Plugins.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/bin/Debug/netstandard2.0/Plugins.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/obj/Debug/netstandard2.0/Plugins.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Faker Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Generators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Generators.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Generators.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Generators.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Program.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Program.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/bin/Debug/Program.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/bin/Debug/Program.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/obj/Debug/Program.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program/obj/Debug/Program.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +14,7 @@
     <session id="-462659905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -70,31 +37,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="7667" />
+          <entry key="cs" value="7682" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="7667" />
+          <entry key="C#" value="7682" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <marker date="1541005544862" expanded="false" signature="6:64" ph="..." />
-                <marker date="1541005544862" expanded="true" signature="84:1150" ph="{...}" />
-                <marker date="1541005544862" expanded="true" signature="113:639" ph="{...}" />
-                <marker date="1541005544862" expanded="true" signature="166:633" ph="{...}" />
-                <marker date="1541005544862" expanded="true" signature="439:550" ph="{...}" />
-                <marker date="1541005544862" expanded="true" signature="660:1077" ph="{...}" />
-                <marker date="1541005544862" expanded="true" signature="1098:1148" ph="{...}" />
+                <marker date="1541006233398" expanded="false" signature="6:64" ph="..." />
+                <marker date="1541006233398" expanded="true" signature="84:1158" ph="{...}" />
+                <marker date="1541006233398" expanded="true" signature="113:639" ph="{...}" />
+                <marker date="1541006233398" expanded="true" signature="166:633" ph="{...}" />
+                <marker date="1541006233398" expanded="true" signature="439:550" ph="{...}" />
+                <marker date="1541006233398" expanded="true" signature="660:1085" ph="{...}" />
+                <marker date="1541006233398" expanded="true" signature="1106:1156" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Plugins/DateListPlugin.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <marker date="1541005896467" expanded="false" signature="6:83" ph="..." />
                 <marker date="1541005896467" expanded="true" signature="102:590" ph="{...}" />
@@ -259,9 +226,9 @@
         <option value="$PROJECT_DIR$/Generators/CharListGenerator.cs" />
         <option value="$PROJECT_DIR$/Faker Lib/Faker.cs" />
         <option value="$PROJECT_DIR$/Generators/BoolListGenerator.cs" />
-        <option value="$PROJECT_DIR$/Program/Program.cs" />
         <option value="$PROJECT_DIR$/Generators/DateTimeListGenerator.cs" />
         <option value="$PROJECT_DIR$/Plugins/DateListPlugin.cs" />
+        <option value="$PROJECT_DIR$/Program/Program.cs" />
       </list>
     </option>
   </component>
@@ -294,11 +261,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Lab Task 2" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Faker Lib" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab Task 2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Generators" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -373,12 +335,12 @@
       <workItem from="1540908059159" duration="1799000" />
       <workItem from="1540912086989" duration="14531000" />
       <workItem from="1540931506850" duration="4227000" />
-      <workItem from="1540990149598" duration="7988000" />
+      <workItem from="1540990149598" duration="8325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49108000" />
+    <option name="totallyTimeSpent" value="49445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,6 +353,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21854305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,7 +361,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.221519" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.32805908" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32805908" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -434,32 +397,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program/Program.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Program/Program.cs" initialLine="19">
-            <startOffsets>
-              <option value="576" />
-            </startOffsets>
-            <endOffsets>
-              <option value="622" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Faker Lib/Faker.cs</url>
-          <line>240</line>
-          <properties documentPath="$PROJECT_DIR$/Faker Lib/Faker.cs" initialLine="240">
-            <startOffsets>
-              <option value="8055" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8110" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -803,18 +740,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Program.cs">
+    <entry file="file://$PROJECT_DIR$/Plugins/DateListPlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <marker date="1541005544862" expanded="false" signature="6:64" ph="..." />
-            <marker date="1541005544862" expanded="true" signature="84:1150" ph="{...}" />
-            <marker date="1541005544862" expanded="true" signature="113:639" ph="{...}" />
-            <marker date="1541005544862" expanded="true" signature="166:633" ph="{...}" />
-            <marker date="1541005544862" expanded="true" signature="439:550" ph="{...}" />
-            <marker date="1541005544862" expanded="true" signature="660:1077" ph="{...}" />
-            <marker date="1541005544862" expanded="true" signature="1098:1148" ph="{...}" />
+            <marker date="1541005896467" expanded="false" signature="6:83" ph="..." />
+            <marker date="1541005896467" expanded="true" signature="102:590" ph="{...}" />
+            <marker date="1541005896467" expanded="true" signature="146:588" ph="{...}" />
+            <marker date="1541005896467" expanded="true" signature="261:450" ph="{...}" />
+            <marker date="1541005896467" expanded="true" signature="354:439" ph="{...}" />
+            <marker date="1541005896467" expanded="true" signature="521:582" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -874,17 +810,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/DateListPlugin.cs">
+    <entry file="file://$PROJECT_DIR$/Program/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <marker date="1541005896467" expanded="false" signature="6:83" ph="..." />
-            <marker date="1541005896467" expanded="true" signature="102:590" ph="{...}" />
-            <marker date="1541005896467" expanded="true" signature="146:588" ph="{...}" />
-            <marker date="1541005896467" expanded="true" signature="261:450" ph="{...}" />
-            <marker date="1541005896467" expanded="true" signature="354:439" ph="{...}" />
-            <marker date="1541005896467" expanded="true" signature="521:582" ph="{...}" />
+            <marker date="1541006233398" expanded="false" signature="6:64" ph="..." />
+            <marker date="1541006233398" expanded="true" signature="84:1158" ph="{...}" />
+            <marker date="1541006233398" expanded="true" signature="113:639" ph="{...}" />
+            <marker date="1541006233398" expanded="true" signature="166:633" ph="{...}" />
+            <marker date="1541006233398" expanded="true" signature="439:550" ph="{...}" />
+            <marker date="1541006233398" expanded="true" signature="660:1085" ph="{...}" />
+            <marker date="1541006233398" expanded="true" signature="1106:1156" ph="{...}" />
           </folding>
         </state>
       </provider>

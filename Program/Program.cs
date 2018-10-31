@@ -30,8 +30,8 @@ namespace Program
         public int bar{ get; set; }
         public int baz{ get; set; }
         public List<int> fooBar { get; set; }
-        public DateTime today { get; set; }
         public BasicDTO2 oleg{ get; set; }
+        public DateTime olegsBirthday { get; set; }
         public char umm { get; set; }
         public string name { get; set; }
 
