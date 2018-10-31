@@ -38,18 +38,28 @@ namespace Faker_Lib
                 typeof(List<double>),
                 typeof(List<string>),
                 typeof(List<bool>),
-                typeof(List<char>)
+                typeof(List<char>),
+                typeof(List<byte>)
             };
 
             _generators = new Dictionary<Type, IGenerator>
             {
                 {typeof(int), new IntGenerator()},
+                {typeof(long), new LongGenerator()},
                 {typeof(string), new StringGenerator()},
                 {typeof(float), new FloatGenerator()},
                 {typeof(double), new DoubleGenerator()},
                 {typeof(byte), new ByteGenerator()},
                 {typeof(char), new CharGenerator()},
+                {typeof(bool), new BoolGenerator()},
+                
                 {typeof(List<int>), new IntListGenerator()},
+                {typeof(List<long>), new LongListGenerator()},
+                {typeof(List<string>), new StringListGenerator()},
+                {typeof(List<float>), new FloatListGenerator()},
+                {typeof(List<double>), new DoubleListGenerator()},
+                {typeof(List<byte>), new ByteListGenerator()},
+                {typeof(List<char>), new CharListGenerator()},
             };
 
             _typesMet = new Stack<Type>();
