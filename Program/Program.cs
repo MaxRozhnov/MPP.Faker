@@ -34,7 +34,9 @@ namespace Program
         public BasicDTO2 oleg{ get; set; }
         public char umm { get; set; }
         public string name { get; set; }
-        
+
+        public List<DateTime> calendar { get; set; }
+
         //public int bamboo;
     }
 
