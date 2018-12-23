@@ -1,14 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{AE65B072-2849-432A-968C-6F5FA382D284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker Lib", "Faker Lib\Faker Lib.csproj", "{1BDB1E08-FAE1-4C7A-93B7-DFEE42B1308F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Faker Lib", "Faker Lib\Faker Lib.csproj", "{1BDB1E08-FAE1-4C7A-93B7-DFEE42B1308F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generators", "Generators\Generators.csproj", "{6F6B1768-64C3-4C1E-B3A6-EEE9D7C0D58B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generators", "Generators\Generators.csproj", "{6F6B1768-64C3-4C1E-B3A6-EEE9D7C0D58B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{74555512-B69C-46FC-9DA7-9D1F33A936C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{74555512-B69C-46FC-9DA7-9D1F33A936C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{683C9DC1-2306-4470-94B5-53C32AB3379E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins", "Plugins\Plugins.csproj", "{683C9DC1-2306-4470-94B5-53C32AB3379E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerTests", "UnitTestProject1\FakerTests.csproj", "{8DF0FAF0-8B6D-4999-A50E-3BB2410FC8CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +41,15 @@ Global
 		{683C9DC1-2306-4470-94B5-53C32AB3379E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{683C9DC1-2306-4470-94B5-53C32AB3379E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{683C9DC1-2306-4470-94B5-53C32AB3379E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF0FAF0-8B6D-4999-A50E-3BB2410FC8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF0FAF0-8B6D-4999-A50E-3BB2410FC8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF0FAF0-8B6D-4999-A50E-3BB2410FC8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF0FAF0-8B6D-4999-A50E-3BB2410FC8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2E5212-72AF-4772-ADFD-B6CA92349822}
 	EndGlobalSection
 EndGlobal

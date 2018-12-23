@@ -17,7 +17,8 @@ namespace Generators
             const int minValue = -100;
             const int maxValue = 100;
             //var random = new Random();
-            return _random.Next(minValue, maxValue + 1);   
+            int returnValue = _random.Next(minValue, maxValue);
+            return returnValue != 0? returnValue : 1;   
         }
     }
 }
